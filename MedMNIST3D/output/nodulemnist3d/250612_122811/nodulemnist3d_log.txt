@@ -1,0 +1,5 @@
+nodulemnist3d
+train  auc: 0.82855  acc: 0.82297
+val  auc: 0.83391  acc: 0.82424
+test  auc: 0.83740  acc: 0.83226
+

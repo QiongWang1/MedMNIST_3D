@@ -1,0 +1,30 @@
+{
+  "inference_config": {
+    "model_path": "/projects/weilab/qiongwang/MedMNIST_experiments/MedMNIST_experiments/MedMNIST3D/output/mitochondria/250627_172909/best_model.pth",
+    "csv_path": "/projects/weilab/qiongwang/MedMNIST_experiments/MedMNIST_experiments/MedMNIST3D/mito_infer_centers.csv",
+    "data_dir": "/projects/weilab/qiongwang/MedMNIST_experiments/MedMNIST_experiments/MedMNIST3D/mito_infer_downloaded_patch",
+    "output_dir": "./inference_results",
+    "model_flag": "resnet18",
+    "conv": "Conv3d",
+    "pretrained_3d": "i3d",
+    "shape_transform": false,
+    "batch_size": 32,
+    "gpu_ids": "0",
+    "num_workers": 4
+  },
+  "dataset_size": 4483,
+  "analysis": {
+    "class_distribution": {
+      "0": 3402,
+      "1": 1081
+    },
+    "confidence_stats": {
+      "mean": 0.9031506180763245,
+      "median": 0.9695031046867371,
+      "min": 0.5005723237991333,
+      "max": 1.0
+    },
+    "high_confidence_count": 3151,
+    "low_confidence_count": 268
+  }
+}

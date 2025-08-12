@@ -1,0 +1,5 @@
+mito3d
+train  auc: 0.65000  acc: 0.66667
+val  auc: 1.00000  acc: 0.80000
+test  auc: 0.11111  acc: 0.33333
+
